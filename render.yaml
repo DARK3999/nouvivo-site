@@ -1,0 +1,15 @@
+# NOUVIVO — Blueprint Render (déploiement en un clic)
+# Render > New > Blueprint > connecter dark3999/nouvivo-site
+services:
+  - type: web
+    name: nouvivo-site
+    runtime: docker
+    plan: free
+    region: frankfurt
+    branch: claude/blissful-carson-30nely
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 10000
