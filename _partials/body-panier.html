@@ -1,0 +1,42 @@
+<section class="section section--serre">
+<div class="container">
+<div class="titre-section">
+<span class="eyebrow">Commande</span>
+<h1>Votre panier</h1>
+</div>
+<div id="panier-vide" style="display:none" class="text-center">
+<p>Votre panier est vide.</p>
+<a class="btn" href="boutique.html" style="margin-top:16px">Découvrir la collection</a>
+</div>
+<div id="panier-corps" class="panier" style="display:none">
+<div>
+<div id="panier-lignes"></div>
+</div>
+<aside class="resume">
+<h3>Récapitulatif</h3>
+<div class="champ">
+<label for="champ-nom">Nom complet</label>
+<input id="champ-nom" type="text" autocomplete="name">
+</div>
+<div class="champ">
+<label for="champ-tel">Téléphone</label>
+<input id="champ-tel" type="tel" autocomplete="tel">
+</div>
+<div class="champ">
+<label for="champ-zone">Zone de livraison</label>
+<select id="champ-zone">
+<option value="cotonou">Cotonou</option>
+<option value="calavi">Abomey-Calavi</option>
+<option value="benin">Autre ville du Bénin</option>
+<option value="diaspora">Diaspora / Afrique de l&rsquo;Ouest</option>
+</select>
+</div>
+<div class="resume__ligne"><span>Articles (<span id="resume-nb">0</span>)</span><span id="resume-sous-total"></span></div>
+<div class="resume__ligne"><span>Livraison</span><span id="resume-frais"></span></div>
+<div class="resume__total"><span>Total</span><b id="resume-total"></b></div>
+<button class="btn btn--whatsapp btn--bloc" id="panier-whatsapp" type="button" style="margin-top:18px">Commander sur WhatsApp</button>
+<p class="muted" style="font-size:.78rem;margin-top:12px">Le paiement en ligne (mobile money) arrive bientôt. Vous pouvez déjà commander et régler à la livraison ou par mobile money via WhatsApp.</p>
+</aside>
+</div>
+</div>
+</section>

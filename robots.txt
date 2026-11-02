@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /api/
+Disallow: /data/
+Disallow: /_partials/
+
+Sitemap: https://www.nouvivo.com/sitemap.xml

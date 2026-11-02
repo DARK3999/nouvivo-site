@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Produit — NOUVIVO</title>
+<meta name="description" content="Fiche produit NOUVIVO : photos, tailles, couleurs et commande en quelques clics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Manrope:wght@400;500;700;800&family=Comfortaa:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#09033A">
+</head>
+<body>
+<header class="site-header">
+<div class="container site-header__inner">
+<a class="logo" href="index.html"><img src="assets/img/logo-nv.svg" alt="Monogramme NOUVIVO" width="34" height="34"><span>NOUVIVO<small>Liberté Portée</small></span></a>
+<nav class="nav" aria-label="Navigation principale">
+<ul class="nav__list">
+<li><a class="nav__link" href="boutique.html?nouveaute=1">Nouveautés</a></li>
+<li><a class="nav__link" href="boutique.html">Boutique</a></li>
+<li><a class="nav__link" href="histoire.html">Notre histoire</a></li>
+<li><a class="nav__link" href="livraison-faq.html">Livraison &amp; FAQ</a></li>
+<li><a class="nav__link" href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<div class="header-actions">
+<a class="icon-btn" href="panier.html" aria-label="Voir le panier"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count" id="cart-count"></span></a>
+<button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+</div>
+</div>
+</header>
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+<div class="mobile-menu__top"><a class="logo" href="index.html"><img src="assets/img/logo-nv.svg" alt="Monogramme NOUVIVO" width="34" height="34"><span>NOUVIVO</span></a><button class="icon-btn" id="fermer-menu" aria-label="Fermer le menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>
+<ul class="mobile-menu__list">
+<li><a href="index.html">Accueil</a></li>
+<li><a href="boutique.html?nouveaute=1">Nouveautés</a></li>
+<li><a href="boutique.html">Boutique</a></li>
+<li><a href="histoire.html">Notre histoire</a></li>
+<li><a href="livraison-faq.html">Livraison &amp; FAQ</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<div class="mobile-menu__pied"><a class="btn btn--sm" href="panier.html">Mon panier</a></div>
+</div>
+<main>
+<section class="section section--serre">
+<div class="container">
+<div class="fiche">
+<div class="fiche__galerie">
+<div class="fiche__main"><img id="p-image" src="assets/img/ph-tee.svg" alt="Produit NOUVIVO"></div>
+<div class="fiche__vignettes" id="p-vignettes"></div>
+</div>
+<div>
+<span class="eyebrow" id="p-cat">Produit</span>
+<h1 class="fiche__titre" id="p-nom">Chargement…</h1>
+<div class="fiche__prix"><span id="p-ancien"></span> <span id="p-prix"></span></div>
+<p class="fiche__desc" id="p-desc"></p>
+<div class="option-groupe">
+<h4>Couleur</h4>
+<div id="p-couleurs"></div>
+</div>
+<div class="option-groupe">
+<h4>Taille</h4>
+<div id="p-tailles"></div>
+</div>
+<div class="stock" id="p-stock"></div>
+<div class="option-groupe">
+<h4>Quantité</h4>
+<div class="qte"><button type="button" id="p-moins" aria-label="Réduire">-</button><span id="p-qte">1</span><button type="button" id="p-plus" aria-label="Augmenter">+</button></div>
+</div>
+<div class="alerte alerte--ok" id="p-ajout-ok">Ajouté au panier !</div>
+<div style="display:flex;flex-direction:column;gap:10px;margin-top:8px">
+<button class="btn btn--bloc" id="p-ajouter" type="button">Ajouter au panier</button>
+<button class="btn btn--whatsapp btn--bloc" id="p-whatsapp" type="button">Commander sur WhatsApp</button>
+</div>
+<p class="muted" style="margin-top:14px;font-size:.82rem">Livraison à Cotonou et au Bénin · Échanges sous 7 jours</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="pied">
+<div class="container">
+<div class="pied__grille">
+<div>
+<a class="logo" href="index.html"><img src="assets/img/logo-nv.svg" alt="Monogramme NOUVIVO" width="34" height="34"><span>NOUVIVO<small>Liberté Portée</small></span></a>
+<p style="margin-top:12px;max-width:260px">Streetwear premium né à Cotonou. La liberté se porte.</p>
+</div>
+<div>
+<h4>Boutique</h4>
+<ul>
+<li><a href="boutique.html?nouveaute=1">Nouveautés</a></li>
+<li><a href="boutique.html">Toute la collection</a></li>
+<li><a href="panier.html">Mon panier</a></li>
+</ul>
+</div>
+<div>
+<h4>Aide</h4>
+<ul>
+<li><a href="livraison-faq.html">Livraison &amp; FAQ</a></li>
+<li><a href="cgv.html">Conditions de vente</a></li>
+<li><a href="confidentialite.html">Confidentialité</a></li>
+<li><a href="mentions-legales.html">Mentions légales</a></li>
+</ul>
+</div>
+<div>
+<h4>Nous suivre</h4>
+<div class="rs">
+<a href="https://www.instagram.com/nouvivo.officiel" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+<a href="https://www.tiktok.com/@nouvivo.officiel" aria-label="TikTok" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.3 0 .6.05.88.13V9.4a6.34 6.34 0 0 0-.88-.05A6.34 6.34 0 0 0 3.9 15.36a6.34 6.34 0 0 0 10.86 4.43 6.34 6.34 0 0 0 1.85-4.48V8.56a8.27 8.27 0 0 0 4.85 1.55V6.65a4.85 4.85 0 0 1-1.87.04z"/></svg></a>
+</div>
+</div>
+</div>
+<div class="pied__bas">
+<span>© <span id="annee"></span> NOUVIVO — Liberté Portée</span>
+<span>Fait à Cotonou, Bénin</span>
+</div>
+</div>
+</footer>
+<div class="cookies" id="cookies" role="dialog" aria-label="Consentement aux cookies">
+<p>Nous utilisons des cookies pour mesurer notre audience et améliorer votre expérience. En poursuivant, vous acceptez leur utilisation. <a href="confidentialite.html">En savoir plus</a></p>
+<div class="cookies__btns">
+<button class="btn btn--sm btn--ghost" id="cookies-refuser" type="button">Refuser</button>
+<button class="btn btn--sm" id="cookies-accepter" type="button">Accepter</button>
+</div>
+</div>
+<a class="wa-float" id="wa-float" href="https://wa.me/22901000000" aria-label="Discuter sur WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+<script src="assets/js/produit.js"></script>
+<script src="assets/js/logique.js"></script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

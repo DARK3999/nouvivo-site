@@ -1,0 +1,56 @@
+<section class="section section--serre">
+<div class="container">
+<div class="titre-section">
+<span class="eyebrow">Contact</span>
+<h1>Parlons-nous</h1>
+<p>Une question, une commande, un partenariat ? Écrivez-nous, nous répondons vite.</p>
+</div>
+<div class="fiche">
+<form id="form-contact" novalidate>
+<div class="champ">
+<label for="c-nom">Nom</label>
+<input id="c-nom" name="nom" type="text" required>
+</div>
+<div class="champ">
+<label for="c-email">E-mail</label>
+<input id="c-email" name="email" type="email" required>
+</div>
+<div class="champ">
+<label for="c-message">Message</label>
+<textarea id="c-message" name="message" required></textarea>
+</div>
+<div class="champ" style="position:absolute;left:-9999px;width:1px;height:1px" aria-hidden="true">
+<label for="c-site">Ne pas remplir</label>
+<input id="c-site" name="site" type="text" tabindex="-1" autocomplete="off">
+</div>
+<div class="alerte alerte--ok" id="contact-ok">Message envoyé ! Nous vous répondrons rapidement.</div>
+<div class="alerte alerte--err" id="contact-err">Une erreur est survenue. Réessayez ou écrivez-nous sur WhatsApp.</div>
+<button class="btn" type="submit">Envoyer le message</button>
+</form>
+<div>
+<h3 style="margin-bottom:14px">Nous joindre</h3>
+<p><strong>WhatsApp</strong> : <a href="https://wa.me/22901000000" target="_blank" rel="noopener">+229 01 00 00 00</a></p>
+<p><strong>Instagram</strong> : @nouvivo.officiel</p>
+<p><strong>TikTok</strong> : @nouvivo.officiel</p>
+<p><strong>Zone de présence</strong> : Cotonou, Bénin</p>
+<div style="margin-top:18px"><a class="btn btn--whatsapp" href="https://wa.me/22901000000" target="_blank" rel="noopener">Discuter sur WhatsApp</a></div>
+</div>
+</div>
+</div>
+</section>
+<script>
+document.getElementById("form-contact").addEventListener("submit", function (e) {
+  var form = e.target;
+  if (!form.checkValidity()) { return; }
+  e.preventDefault();
+  var ok = document.getElementById("contact-ok");
+  var err = document.getElementById("contact-err");
+  fetch("api/contact.php", { method: "POST", body: new FormData(form) })
+    .then(function (r) { return r.json(); })
+    .then(function (j) {
+      if (j && j.ok) { ok.classList.add("is-on"); err.classList.remove("is-on"); form.reset(); }
+      else { err.classList.add("is-on"); ok.classList.remove("is-on"); }
+    })
+    .catch(function () { err.classList.add("is-on"); ok.classList.remove("is-on"); });
+});
+</script>

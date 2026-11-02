@@ -1,0 +1,182 @@
+{
+  "produits": [
+    {
+      "id": "tee-vivo",
+      "nom": "Tee Vivo Oversize",
+      "categorie": "Tees",
+      "nouveaute": true,
+      "prix": 15000,
+      "ancienPrix": null,
+      "couleurs": [
+        "Noir",
+        "Blanc cassé",
+        "Teal"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 14,
+      "description": "T-shirt oversize en coton épais 240 g. Coupe ample, tombé parfait. Le tee signature qui porte la liberté au quotidien.",
+      "images": [
+        "assets/img/ph-tee.svg"
+      ]
+    },
+    {
+      "id": "hoodie-liberte",
+      "nom": "Hoodie Liberté Portée",
+      "categorie": "Hoodies",
+      "nouveaute": true,
+      "prix": 32000,
+      "ancienPrix": null,
+      "couleurs": [
+        "Noir",
+        "Teal"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "stock": 10,
+      "description": "Hoodie premium en molleton brossé, capuche doublée et poche kangourou. Chaleur et caractère pour les soirs de Cotonou.",
+      "images": [
+        "assets/img/ph-hoodie.svg"
+      ]
+    },
+    {
+      "id": "sweat-monogramme",
+      "nom": "Sweat Monogramme NV",
+      "categorie": "Hoodies",
+      "nouveaute": false,
+      "prix": 28000,
+      "ancienPrix": null,
+      "couleurs": [
+        "Noir",
+        "Gris chiné"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 9,
+      "description": "Sweat à col rond brodé du monogramme NV. Coupe droite, douceur garantie, logo ton sur ton.",
+      "images": [
+        "assets/img/ph-sweat.svg"
+      ]
+    },
+    {
+      "id": "tee-essential",
+      "nom": "Tee Essential",
+      "categorie": "Tees",
+      "nouveaute": false,
+      "prix": 13000,
+      "ancienPrix": 15000,
+      "couleurs": [
+        "Blanc cassé",
+        "Noir"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 20,
+      "description": "Le basique de la garde-robe NOUVIVÔ. Coton peigné, coupe régulière, logo discret sur la poitrine.",
+      "images": [
+        "assets/img/ph-tee.svg"
+      ]
+    },
+    {
+      "id": "casquette-nv",
+      "nom": "Casquette NV",
+      "categorie": "Accessoires",
+      "nouveaute": true,
+      "prix": 9000,
+      "ancienPrix": null,
+      "couleurs": [
+        "Noir",
+        "Teal"
+      ],
+      "tailles": [
+        "Unique"
+      ],
+      "stock": 15,
+      "description": "Casquette à visière plate brodée du monogramme NV. Sangle ajustable, finition premium.",
+      "images": [
+        "assets/img/ph-cap.svg"
+      ]
+    },
+    {
+      "id": "cargo",
+      "nom": "Pantalon Cargo",
+      "categorie": "Bas",
+      "nouveaute": false,
+      "prix": 26000,
+      "ancienPrix": null,
+      "couleurs": [
+        "Noir",
+        "Kaki"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 7,
+      "description": "Cargo coupe ample avec poches plaquées et cordon de serrage. Fonctionnel et street.",
+      "images": [
+        "assets/img/ph-cargo.svg"
+      ]
+    },
+    {
+      "id": "veste-nou",
+      "nom": "Veste Nou",
+      "categorie": "Vestes",
+      "nouveaute": true,
+      "prix": 45000,
+      "ancienPrix": null,
+      "couleurs": [
+        "Noir"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L"
+      ],
+      "stock": 5,
+      "description": "Veste technique coupe-vent, doublure légère, capuche ajustable. La pièce maîtresse de la collection.",
+      "images": [
+        "assets/img/ph-veste.svg"
+      ]
+    },
+    {
+      "id": "tote-nv",
+      "nom": "Tote Bag NV",
+      "categorie": "Accessoires",
+      "nouveaute": false,
+      "prix": 8000,
+      "ancienPrix": null,
+      "couleurs": [
+        "Noir",
+        "Blanc cassé"
+      ],
+      "tailles": [
+        "Unique"
+      ],
+      "stock": 25,
+      "description": "Tote bag en toile épaisse, sérigraphié du monogramme. Pour porter la liberté partout.",
+      "images": [
+        "assets/img/ph-tote.svg"
+      ]
+    }
+  ]
+}
