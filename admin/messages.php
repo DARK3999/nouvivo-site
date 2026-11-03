@@ -20,13 +20,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && ($_POST["action"] ?? "") === "suppr
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Messages — Administration NOUVIVO</title>
+<title>Messages — Administration NOUVIVÔ</title>
 <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 <main class="container" style="max-width:860px;padding-block:40px">
 <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap">
-<a class="logo" href="../index.html"><img src="../assets/img/logo-nv.svg" alt="NOUVIVO" width="34" height="34"><span>NOUVIVO</span></a>
+<a class="logo" href="../index.html"><img src="../assets/img/logo-nv.svg" alt="NOUVIVÔ" width="34" height="34"><span>NOUVIVÔ</span></a>
 <div><a class="btn btn--sm btn--ghost" href="index.php">Tableau de bord</a> <a class="btn btn--sm btn--ghost" href="logout.php">Deconnexion</a></div>
 </div>
 <h1 style="font-size:1.6rem;margin-top:24px">Messages</h1>

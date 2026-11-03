@@ -18,7 +18,7 @@
   }
 
   function rendre() {
-    document.title = produit.nom + " - NOUVIVO";
+    document.title = produit.nom + " - NOUVIVÔ";
     setText("p-nom", produit.nom);
     setText("p-prix", window.NVL.formaterPrix(produit.prix));
     setText("p-desc", produit.description);

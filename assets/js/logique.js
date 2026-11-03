@@ -56,7 +56,7 @@
   function construireMessageWhatsApp(lignes, produits, numero) {
     var tel = chiffres(numero);
     var t = calculerTotal(lignes, produits);
-    var msg = "Bonjour NOUVIVO ! Je souhaite commander :" + NL + NL;
+    var msg = "Bonjour NOUVIVÔ ! Je souhaite commander :" + NL + NL;
     (lignes || []).forEach(function (l) {
       var p = trouver(produits, l.id);
       if (!p) { return; }

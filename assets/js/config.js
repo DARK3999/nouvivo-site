@@ -1,6 +1,6 @@
 /* NOUVIVO - configuration centrale | à mettre à jour par Daren */
 window.NV_CONFIG = {
-  nom: "NOUVIVO",
+  nom: "NOUVIVÔ",
   signature: "Liberté Portée",
   whatsapp: "22901000000",
   email: "contact@nouvivo.com",

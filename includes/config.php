@@ -2,7 +2,7 @@
 // NOUVIVO - configuration centrale (à adapter par Daren)
 define("NV_ROOT", __DIR__ . "/..");
 define("NV_DATA", NV_ROOT . "/data");
-define("NV_NOM", "NOUVIVO");
+define("NV_NOM", "NOUVIVÔ");
 define("NV_EMAIL", "contact@nouvivo.com");
 define("NV_WHATSAPP", "22901000000");
 define("NV_FICHIER_PRODUITS", NV_DATA . "/produits.json");

@@ -2,7 +2,7 @@
   "produits": [
     {
       "id": "tee-vivo",
-      "nom": "Tee Vivo Oversize",
+      "nom": "Tee Vivô Oversize",
       "categorie": "Tees",
       "nouveaute": true,
       "prix": 15000,
@@ -50,7 +50,7 @@
     },
     {
       "id": "sweat-monogramme",
-      "nom": "Sweat Monogramme NV",
+      "nom": "Sweat Monogramme Ô",
       "categorie": "Hoodies",
       "nouveaute": false,
       "prix": 28000,
@@ -66,7 +66,7 @@
         "XL"
       ],
       "stock": 9,
-      "description": "Sweat à col rond brodé du monogramme NV. Coupe droite, douceur garantie, logo ton sur ton.",
+      "description": "Sweat à col rond brodé du symbole Ô. Coupe droite, douceur garantie, logo ton sur ton.",
       "images": [
         "assets/img/ph-sweat.svg"
       ]
@@ -96,7 +96,7 @@
     },
     {
       "id": "casquette-nv",
-      "nom": "Casquette NV",
+      "nom": "Casquette Ô",
       "categorie": "Accessoires",
       "nouveaute": true,
       "prix": 9000,
@@ -109,7 +109,7 @@
         "Unique"
       ],
       "stock": 15,
-      "description": "Casquette à visière plate brodée du monogramme NV. Sangle ajustable, finition premium.",
+      "description": "Casquette à visière plate brodée du symbole Ô. Sangle ajustable, finition premium.",
       "images": [
         "assets/img/ph-cap.svg"
       ]
@@ -160,7 +160,7 @@
     },
     {
       "id": "tote-nv",
-      "nom": "Tote Bag NV",
+      "nom": "Tote Bag Ô",
       "categorie": "Accessoires",
       "nouveaute": false,
       "prix": 8000,

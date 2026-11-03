@@ -21,12 +21,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Connexion — Administration NOUVIVO</title>
+<title>Connexion — Administration NOUVIVÔ</title>
 <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 <main class="container" style="max-width:420px;padding-top:60px">
-<a class="logo" href="../index.html"><img src="../assets/img/logo-nv.svg" alt="NOUVIVO" width="34" height="34"><span>NOUVIVO</span></a>
+<a class="logo" href="../index.html"><img src="../assets/img/logo-nv.svg" alt="NOUVIVÔ" width="34" height="34"><span>NOUVIVÔ</span></a>
 <h1 style="font-size:1.5rem;margin-top:20px">Espace admin</h1>
 <?php if ($erreur): ?><div class="alerte alerte--err is-on"><?php echo $erreur; ?></div><?php endif; ?>
 <form method="post" style="margin-top:16px">

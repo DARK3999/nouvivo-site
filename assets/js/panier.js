@@ -79,7 +79,7 @@
     var nom = document.getElementById("champ-nom").value;
     var tel = document.getElementById("champ-tel").value;
     var NL = String.fromCharCode(10);
-    var msg = "Bonjour NOUVIVO ! Je souhaite commander :" + NL + NL;
+    var msg = "Bonjour NOUVIVÔ ! Je souhaite commander :" + NL + NL;
     panier.forEach(function (l) {
       var p = window.NVL.trouver(produits, l.id);
       if (!p) { return; }
