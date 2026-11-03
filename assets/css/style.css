@@ -211,3 +211,17 @@ body.menu-ouvert{overflow:hidden}
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
 .reveal.is-visible{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Promesses produit */
+.atouts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:18px}
+.atout{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;padding:8px}
+.atout__ic{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--ligne-fort);color:var(--ink)}
+.atout__ic svg{width:22px;height:22px}
+.atout h3{font-size:.98rem}
+.atout p{font-family:var(--font-accent);font-weight:700;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gris-2)}
+
+/* Coloris (Gris · Blanc · Jaune) */
+.colorways{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:560px}
+.colorway__swatch{aspect-ratio:4/5;border-radius:var(--radius);border:1px solid var(--ligne);display:grid;place-items:center}
+.colorway__swatch svg{width:42%;height:auto}
+.colorway__nom{margin-top:10px;text-align:center;font-family:var(--font-accent);font-weight:700;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ink)}
